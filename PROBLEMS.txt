@@ -1,0 +1,13 @@
+-----------------PROBLEMS with MODULES --------------
+Author: Zachary Lowery
+Date: 11/16/2017
+Description: A simple readme that states the issues with various modules.
+
+
+The overallScore() function in both IglooScore1 and IglooScore2 was unnecessarily complicated and poorly written. I made it less complicated and (hopefully) less poorly written.
+
+The main function for the first class was perfectly fine.
+
+The main function for the second class was unnecessarily complicated and had a very painful check for illegal input for the three integer arguments. I made a sub-optimal correction that drastically reduced the complexity for testing it, at the expense of speed. It goes without saying that when designing a normal application you wouldn't use this approach. But if one were say, designing a prototype and wanted to prove your application ran correctly in a quick fashion, that approach wouldn't be inappropriate.
+
+
